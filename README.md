@@ -1,4 +1,4 @@
-# To do web application made with HTML, CSS, JavaScript and Firestore
+# To do web application made using HTML, CSS, JavaScript and Firestore
 
 ## Database structure:
 ![databasestructure](https://github.com/ElhanM/to-do-web-app/blob/main/images/databasestructure.png?raw=true)
