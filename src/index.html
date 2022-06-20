@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="./firebase.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>To do web app</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">TO DO</div>
+
+    <div class="new-to-do">
+      <div class="new-to-do-input">
+        <form id="form" autocomplete="off">
+          <input id="to-do-input" type="text" placeholder="Create a new to do..." />
+        </form>
+      </div>
+    </div>
+
+    <div class="to-do-items-wrapper">
+      <div class="to-do-items">
+
+      </div>
+      
+      <div class="to-do-items-info">
+        <div class="items-left" id="items-left">Reloading...</div>
+        <div class="items-statuses">
+          <span id="all">All</span>
+          <span id="active">Active</span>
+          <span id="completed">Completed</span>
+        </div>
+        <div class="items-clear" id="items-clear">
+          <span>Clear Completed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="inputoutput.js"></script>
+  <script src="buttonfunctionality.js"></script>
+</body>
+
+</html>
